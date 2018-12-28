@@ -1,0 +1,79 @@
+body {
+	font-family: Verdana, sans-serif;
+	font-size: 14px;
+}
+
+.container {
+	width: 700px;
+	margin: 20px auto;
+}
+
+#title {
+	font-size: 22px;
+}
+
+table {
+	width: 700px;
+}
+
+table, th,td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+td#td_action {
+	text-align: center;
+}
+
+h1 {
+	font-size: 16px;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #ddd;
+}
+
+ul > li {
+	margin-bottom: 5px;
+}
+
+.header-menu {
+	font-size: 15px;
+	font-weight: normal;
+	float: right;
+	margin-left: 13px;
+}
+
+input[type="text"], input[type="password"],textarea {
+	box-sizing: border-box;
+	width: 700px;
+	padding: 5px;
+}
+
+textarea {
+	height: 120px;
+}
+
+form {
+	margin-bottom: 0px;
+}
+
+h2 {
+	font-size: 14px;
+	padding-top: 25px;
+}
+
+.edit {
+	font-size: 12px;
+}
+
+.errors {
+	color: tomato;
+}
+
+.date {
+	font-size: 11px;
+}
+
+.notice {
+	color: blue;
+}

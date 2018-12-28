@@ -1,0 +1,25 @@
+ul#show {
+	background-color: white;
+	list-style: none;
+	padding: 0px;
+	margin: 0;
+	width: 150px;
+	height: 200;
+	overflow: scroll;
+		box-shadow: 1px 1px 1px 1px #d8d8d8;
+	position: absolute;
+	top: 135px;
+
+}
+
+ul#show:empty {
+	display: none;
+}
+
+ul#show li {
+}
+
+ul#show li:hover {
+	cursor: default;
+	background-color: lightblue;
+}
